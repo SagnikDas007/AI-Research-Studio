@@ -170,7 +170,7 @@ def ask_ai(prompt, system_message):
             }
         ],
         temperature=0.2,
-        max_tokens=8000
+        max_tokens=1500
     )
 
     return response.choices[0].message.content
